@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_high_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gx60.semiproject.HighScore"
+    android:background="@mipmap/ic_launcher">
+
+    <fragment
+        android:name="com.example.gx60.semiproject.HighScoreTopFragment"
+        android:id="@+id/fragment_top"
+        tools:layout="@layout/high_score_top"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <fragment
+        android:name="com.example.gx60.semiproject.HighScoreBottomFragment"
+        android:id="@+id/fragment_bottom"
+        tools:layout="@layout/high_score_bottom"
+        android:layout_below="@+id/fragment_top"
+        android:layout_marginTop="52dp"
+        android:layout_width="350dp"
+        android:layout_height="250dp" />
+</RelativeLayout>

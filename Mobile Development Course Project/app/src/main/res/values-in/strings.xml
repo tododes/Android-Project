@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Setengah Projek</string>
+    <string name="login_string">Daftar</string>
+    <string name="signup_string">Masuk</string>
+    <string name="quit_string">Keluar</string>
+    <string name="buy_credit_string">Beli Kredit</string>
+    <string name="mainmenu_string">Menu Utama</string>
+    <string name="high_score_string">Skor Tertinggi</string>
+    <string name="name_id_string">Nama</string>
+    <string name="password_id_string">Sandi</string>
+    <string name="play_string">Bermain</string>
+</resources>

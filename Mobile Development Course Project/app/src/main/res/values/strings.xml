@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SemiProject</string>
+    <string name="login_string">Login</string>
+    <string name="signup_string">Sign Up</string>
+    <string name="quit_string">Quit</string>
+    <string name="buy_credit_string">Buy Credits</string>
+    <string name="mainmenu_string">Main Menu</string>
+    <string name="high_score_string">High Score</string>
+    <string name="name_id_string">Name</string>
+    <string name="password_id_string">Password</string>
+    <string name="play_string">Play</string>
+</resources>

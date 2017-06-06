@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SemiProject</string>
+    <string name="login_string">Inloggen</string>
+    <string name="signup_string">Aanmelden</string>
+    <string name="quit_string">Uit</string>
+    <string name="mainmenu_string">hoofdmenu</string>
+    <string name="buy_credit_string">Krediet kopen</string>
+    <string name="high_score_string">Hoogste score</string>
+    <string name="name_id_string">Naam</string>
+    <string name="password_id_string">Wachtwoord</string>
+    <string name="play_string">Spelen</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/horde"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:id="@+id/List_Text"
+        android:layout_weight="0.30"
+        android:layout_height="wrap_content" />
+</LinearLayout>
